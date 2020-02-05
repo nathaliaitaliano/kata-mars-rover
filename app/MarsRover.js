@@ -1,14 +1,16 @@
-module.exports = class MarsRover{
+module.exports = class MarsRover {
     getPosition() {
-       const initialPosition = [0, 0];
-       return initialPosition;
+        const initialPosition = [0, 0];
+        return initialPosition;
     }
+
     getDirection() {
         const initialDirection = 'north';
         return initialDirection;
     }
+
     turn() {
-        const turn = 'left';
-        return turn;
+        const spin = [{'right':90}, {'left':-90}];
+        return spin;
     }
 };
